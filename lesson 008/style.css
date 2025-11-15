@@ -1,0 +1,29 @@
+body {
+    background-color: blanchedalmond;
+}
+
+h1 {
+    background-color: darkgoldenrod;
+}
+
+.yin {
+    text-align: center;
+}
+
+.container {
+    border: 2px solid rgb(182, 84, 84);
+    background-color: rgb(211, 127, 112);
+    margin: 10px;
+    padding: 5px;
+    font-style: italic;
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.addition {
+    border: 2px solid red;
+    background-color:tomato;
+    margin: 10px;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
