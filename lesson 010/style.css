@@ -25,4 +25,5 @@ p {
     color: chartreuse;
     font-weight: bold;
     text-decoration:overline darkmagenta;
+    letter-spacing: 2px;
 }
