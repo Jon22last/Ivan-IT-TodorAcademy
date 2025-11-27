@@ -1,0 +1,28 @@
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    text-transform:uppercase;
+    color: skyblue;
+    text-shadow: -8px 4px 2px blue, -50px 50px 12px rgb(19, 35, 80);
+
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    text-transform: capitalize;
+    text-indent: 50px;
+    word-spacing: 2.5px;
+    white-space: normal;
+    font-style: italic;
+    font-variant:small-caps;
+    text-shadow: -2px 0.5px 0.5px rgb(0, 49, 0);
+    color: chartreuse;
+    font-weight: bold;
+    text-decoration:overline darkmagenta;
+}
