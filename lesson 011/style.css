@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url(./BebasNeue-Regular.ttf) format('truetype');
+}
+
+body {
+    background: cornflowerblue;
+    color: rgb(245, 210, 123);
+}
+
+h1, h2, h3 {
+    color: gold;
+    font-family: 'Science Gothic';
+    font-style: italic;
+}
+
+p {
+    font-family: 'Oswald';
+    font-size: 20px;
+    word-spacing: 6px;
+}
+
+span {
+    font-family: 'Bebas Neue';
+    font-weight: bold;
+    font-size: 21px;
+    word-spacing: 6px;
+}
+
+/*Science Gothic/*
