@@ -1,0 +1,61 @@
+body {
+    background-color: white;
+}
+
+.cont {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.lenair {
+    background-image: linear-gradient(90deg, #0000ff, #00ff00);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    color: rgb(30, 230, 180);
+    box-shadow: inset 0px 0px 70px yellow;
+
+}
+
+.shadows {
+    box-shadow: 10px 0px 10px darkblue;
+    margin-left: 50pxpx;
+}
+
+.animate {  
+    background: linear-gradient(45deg, red, green, blue);
+    width: 150px;
+    height: 150px;
+    animation: run 4s infinite alternate ease-in-out;
+    background-size: 200% 200%;
+}
+
+@keyframes run {
+    0% {background-position: 0 50%;}
+    100% {background-position: 100% 50%;}
+}
+
+.shadow-animate {
+    background: white;
+    width: 300px;
+    height: 300px;
+    animation: shadow 4s infinite alternate ease-in-out;
+}
+
+.shadow-animate:active {
+    background: black;
+}
+
+@keyframes shadow {
+    0% { box-shadow: 0 0 0px rgba(255, 0, 0, 0.404); }
+    100% { box-shadow: 10px 15px 30px rgba(0, 60, 255, 0.6); }
+}
